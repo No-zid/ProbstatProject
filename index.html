@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Higher or Lower Game</title>
+
+	<link rel="stylesheet" href="assets/css/main.min.css" />
+</head>
+
+<body>
+
+	<video autoplay loop muted plays-inline class="back-video">
+        <source src="images/ShootingStar.gif" type="video/gif">
+      </video>
+
+	<div class="wrapper">
+		<h1>Higher or Lower</h1>
+		
+		<div class="instructions">
+			<h2>Game Instructions:</h2>
+			<ol>
+			<li>Guess whether the next number will be higher or lower than the current number.</li>
+			<li>Click the corresponding button to submit your guess.</li>
+			<li>If your guess is correct, your score will increase by 1.</li>
+			<li>If your guess is incorrect, the game will end and you'll see your final score.</li>
+			</ol>
+		</div>
+
+		<p></p>
+		<p></p>
+		<p></p>
+
+		<div class="game-view">
+			<div class="number" id="current">0</div>
+			<div class="button-group">
+				<div>
+					<button class="btn" id="higher" data-value="higher">&#8613;</button>
+					<p>Higher</p>
+				</div>
+				<div>
+					<button class="btn" id="lower" data-value="lower">&#8615;</button>
+					<p>Lower</p>
+				</div>
+			</div>
+		</div>
+
+
+		<h4>SCORE</h4>
+		<div class="score" id="score">0</div>
+		
+		<h3 class="result hide" id="result">Correct!</h3>
+	</div>
+
+	<div class="game-info">
+		<h1> Note: </h1>
+		<p>In the High or Low game, the probability of guessing the correct number depends on the range of numbers being used, the number of possible outcomes, and the player's strategy for making guesses.</p>
+		<p>Playing the game with a range of 1-9, there are nine possible numbers that could be the hidden number, with each number having an equal probability of being chosen. This means that each guess has a probability of 1/9 or approximately 11.11% of being correct.</p>
+		<p>When the current displayed number is 8 and you choose lower, the probability of winning is dependent on the number of possible outcomes that are lower than 8. In this case, there are five possible numbers (1, 2, 3, 4, and 5) that are lower than 8, giving you a probability of 5/9 or approximately 55.56% of guessing correctly.</p>
+		<p>However, it's important to note that the High or Low game relies heavily on chance, and there is no guaranteed way to win every time. It's also possible for the player to employ different strategies, such as guessing randomly or using knowledge of the tendencies, to increase their chances of winning.</p>
+	</div>
+
+	<div class="Members">
+		<h2>Meet the Creators:</h2>
+		<ul>
+		  <div>
+			<img src="images/Jeanne.jpg" alt="Jeanne">
+			<li>Cortez, Jeanne</li>
+		  </div>
+		  <div>
+			<img src="images/Lawrence.jpg" alt="Lawrence">
+			<li>Dizon, Lawrence</li>
+		  </div>
+		  <div>
+			<img src="images/Sanjay.png" alt="Sanjay">
+			<li>Mayani, Sanjay</li>
+		  </div>
+		  <div>
+			<img src="images/Jovial.jpg" alt="Jovial">
+			<li>Ramos, Jovial</li>
+		  </div>
+		  <div>
+			<img src="images/Clarence.jpg" alt="Clarence">
+			<li>Reyes, Clarence</li>
+		  </div>
+		</ul>
+	  </div>
+	  
+	
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
