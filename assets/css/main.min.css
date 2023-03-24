@@ -3,6 +3,10 @@ body{
     margin:0;
     /*background:#171717;*/
     background-image: url("https://images.squarespace-cdn.com/content/v1/5d79a177dc839b54c4901981/1622967911737-BHCUQK2IJ45IYQ3YL6W0/Shot8.gif?format=2500w");
+    background-size: cover;
+    background-position: center;
+    background-size: auto 100%;
+    background-attachment: fixed;
     font-family:"Exo 2", "Helvetica", sans-serif;
 }
 
