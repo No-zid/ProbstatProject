@@ -6,7 +6,8 @@ body{
     background-size: cover;
     background-position: center;
     background-size: auto 100%;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
     font-family:"Exo 2", "Helvetica", sans-serif;
 }
 
